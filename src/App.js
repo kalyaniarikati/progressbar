@@ -48,7 +48,7 @@ function App() {
         <div style={{ display: 'block',
         width: 700, padding: 30 }}>
           {it.name}: {parseInt(it.value)} %
-        <ProgressBar variant={it.color} now={it.value} />
+        <ProgressBar variant={it.color} now={it.value} label= {`${it.value}%`} />
         </div>  
         ))}
         <Dropdown>
